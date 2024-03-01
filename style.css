@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(217, 217, 217);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    margin-top: 0px;
+    min-height: 100px;
+    background-color: rgb(255, 0, 0);
+}
+
+.apresentacao{
+    padding: 10px;
+    display: flex;
+    margin: 50px; 
+    min-height: 100px;
+    background-color: rgb(245, 171, 171);
+}
+.botoes{
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    min-height: 30px;
+    
+}
+.botao{
+    flex: 1;
+    padding: 10px;
+    min-height: 10px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+}
+.colunas{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    column-gap: 10px;
+}
+.coluna{
+    padding: 10px;
+    background-color: aliceblue;
+    flex: 1;
+    min-height: 400px;
+    
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    column-gap: 10px;
+}
+.final{
+    padding: 10px;
+    background-color: rgb(245, 171, 171);
+    flex: 1;
+    min-height: 100px;
+
+}
+.dir{
+    flex:4;
+    text-align: center;
+
+}
+.texto-branco{
+    color: white;
+    font-weight: bold;
+}
